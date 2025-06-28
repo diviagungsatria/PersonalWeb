@@ -49,7 +49,7 @@ Website ini adalah *personal web* milik Adam Faturrachman yang menampilkan artik
 ## 📷 Screenshot Tampilan
 
 ### 1. Beranda  
-![Beranda](screenshots/beranda.png)
+![Beranda](ss/Cuplikan layar 2025-06-28 204506.png)
 
 ### 2. Galeri Foto  
 ![Galeri](screenshots/gallery.png)
