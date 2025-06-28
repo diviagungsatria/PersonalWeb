@@ -41,7 +41,7 @@ Keluar dari sistem admin dengan aman.
 Catatan: Letakkan semua screenshot di dalam folder screenshots/.
 
 1. Beranda
-
+ss/Cuplikan layar 2025-06-28 204506.png
 
 2. Galeri Foto
 
