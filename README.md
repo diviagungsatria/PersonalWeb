@@ -1,121 +1,98 @@
-# PersonalWeb
-Personal portofolio menggunakan tailwind css
-🌐 Personal Web | Divi Agung Satria
-Berbagi cerita, ide, dan inspirasi melalui tulisan dan galeri pribadi.
+# 🌐 Personal Web | Adam Faturrachman
+
+*Berbagi cerita, ide, dan inspirasi melalui tulisan dan galeri pribadi.*  
 Dibuat sebagai proyek pembelajaran menggunakan PHP, Tailwind CSS, dan MySQL.
 
-📌 Deskripsi Proyek
-Website ini adalah personal web milik Divi Agung Satria yang menampilkan artikel pribadi, galeri foto, dan fitur admin untuk mengelola konten. Web ini bertujuan menjadi ruang ekspresi dan latihan praktis membuat web dinamis dan interaktif.
+---
 
-✨ Fitur-Fitur Aplikasi
-📝 Halaman Publik
-Beranda / Artikel Terbaru
-Menampilkan artikel-artikel yang telah dipublikasikan.
+## 📌 Deskripsi Proyek
 
-Galeri Foto
-Menampilkan gambar-gambar pilihan dari folder images/.
+Website ini adalah *personal web* milik Adam Faturrachman yang menampilkan artikel pribadi, galeri foto, dan fitur admin untuk mengelola konten. Web ini bertujuan menjadi ruang ekspresi dan latihan praktis membuat web dinamis.
 
-About (Tentang Saya)
-Informasi dan profil pemilik web.
+---
 
-Login Admin
-Form login untuk mengakses dashboard admin.
+## ✨ Fitur-Fitur Aplikasi
 
-🛠 Halaman Admin
-Dashboard Admin
-Ringkasan jumlah artikel, galeri, dan akses cepat.
+### 📝 Halaman Publik
+- *Beranda / Artikel Terbaru*  
+  Menampilkan artikel terbaru dan daftar artikel.
 
-Kelola Artikel
-Tambah, edit, dan hapus artikel.
+- *Galeri Foto*  
+  Galeri publik dengan momen pribadi.
 
-Kelola Galeri
-Upload gambar baru, edit, dan hapus gambar lama.
+- *About (Tentang Saya)*  
+  Profil dan penjelasan singkat tentang pemilik web.
 
-Kelola About
-Edit isi halaman tentang saya.
+- *Login Admin*  
+  Login untuk mengakses dashboard admin.
 
-Logout
-Keluar dari sistem admin dengan aman.
+---
 
-📷 Screenshot Tampilan
-Catatan: Letakkan semua screenshot di dalam folder screenshots/.
+### 🛠 Halaman Admin
+- *Dashboard Admin*  
+  Menampilkan total artikel dan galeri.
 
-1. Beranda
-ss/Cuplikan layar 2025-06-28 204506.png
+- *Kelola Artikel*  
+  Tambah, edit, dan hapus artikel.
 
-2. Galeri Foto
+- *Kelola Galeri*  
+  Tambah, edit, dan hapus gambar galeri.
 
+- *Kelola About*  
+  Edit halaman tentang saya.
 
-3. Tentang Saya
+- *Logout*  
+  Keluar dari halaman admin.
 
+---
 
-4. Form Login Admin
+## 📷 Screenshot Tampilan
 
+### 1. Beranda  
+![Beranda](screenshots/beranda.png)
 
-5. Dashboard Admin
+### 2. Galeri Foto  
+![Galeri](screenshots/gallery.png)
 
+### 3. Tentang Saya  
+![About](screenshots/about.png)
 
-6. Tambah Artikel Baru
+### 4. Form Login Admin  
+![Login](screenshots/login.png)
 
+### 5. Dashboard Admin  
+![Dashboard](screenshots/dashboard.png)
 
-7. Kelola Halaman About
+### 6. Tambah Artikel Baru  
+![Tambah Artikel](screenshots/tambah_artikel.png)
 
+### 7. Kelola Halaman About  
+![Kelola About](screenshots/kelola_about.png)
 
-8. Kelola Galeri
+### 8. Kelola Galeri  
+![Kelola Galeri](screenshots/kelola_galeri.png)
 
+---
 
-🧰 Teknologi yang Digunakan
-Frontend: HTML5, Tailwind CSS v4.0
+## 🧰 Teknologi yang Digunakan
 
-Backend: PHP Native
+- *Frontend*: HTML5, Tailwind CSS v4.0  
+- *Backend*: PHP Native  
+- *Database*: MySQL  
+- *Web Server*: XAMPP / Localhost
 
-Database: MySQL
+---
 
-Web Server: XAMPP (Localhost)
+## 🚀 Cara Menjalankan Aplikasi
 
-🚀 Cara Menjalankan Aplikasi
-Clone atau download repositori ini ke folder htdocs di XAMPP.
+1. Clone atau download repositori ini.
+2. Jalankan XAMPP, aktifkan *Apache* dan *MySQL*.
+3. Import database dari file db_adam_d1a240046.sql ke phpMyAdmin.
+4. Buka browser dan akses:  
+   http://localhost/personal_adam_D1A240046/
+5. Login admin di:  
+   http://localhost/personal_adam_D1A240046/admin/login.php
 
-Jalankan XAMPP, aktifkan Apache dan MySQL.
+---
 
-Buka phpMyAdmin, lalu import database dari file db_divi_agung_satria.sql.
-
-Akses web di browser:
-http://localhost/personal_web_divi/
-
-Login admin melalui:
-http://localhost/personal_web_divi/admin/login.php
-
-📁 Struktur Folder
-pgsql
-Salin
-Edit
-├── admin/
-│   ├── add_about.php
-│   ├── add_artikel.php
-│   ├── add_gallery.php
-│   ├── data_artikel.php
-│   ├── data_gallery.php
-│   ├── edit_about.php
-│   ├── edit_artikel.php
-│   ├── edit_gallery.php
-│   ├── delete_artikel.php
-│   ├── delete_gallery.php
-│   ├── proses_add_about.php
-│   ├── proses_add_artikel.php
-│   ├── proses_add_gallery.php
-│   └── login.php, logout.php, dll.
-│
-├── images/
-│   └── (gambar galeri)
-│
-├── mp3/
-│   └── (file audio mp3)
-│
-├── ss/
-│   └── about.php (backup atau versi lain)
-│
-├── index.php
-├── about.php
-├── gallery.php
-├── koneksi.php
+## 📁 Struktur Folder
